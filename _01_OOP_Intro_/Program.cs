@@ -3,29 +3,32 @@ using _01_OOP_Intro_.Procedural;
 
 namespace _01_OOP_Intro_;
 
+/// <summary>
+/// Entry point of the application.
+/// Demonstrates the difference between procedural and object-oriented approaches.
+/// </summary>
 public static class Program
 {
     public static void Main()
     {
         Console.WriteLine("=== OOP vs Procedural ===\n");
 
-        // Procedural approach
+        // Run the procedural example — uses separate lists and functions
         ProceduralAnimalShelter.Run();
 
-        // OOP approach
+        // Separator for clarity
         Console.WriteLine("=== Object-Oriented Version ===\n");
 
-        List<Animal> animals = new List<Animal>
-        {
-            new Dog("Burek", 5),
-            new Cat("Mila", 3)
-        };
+        // Create Dog object and demonstrate its behavior
+        var dog = new Dog("Burek", 5);
+        dog.Describe();
+        dog.MakeSound();
 
-        foreach (var animal in animals)
-        {
-            animal.Describe();
-            animal.MakeSound();
-            Console.WriteLine();
-        }
+        Console.WriteLine();
+
+        // Create Cat object and demonstrate its behavior
+        var cat = new Cat("Mila", 3);
+        cat.Describe();
+        cat.MakeSound();
     }
 }

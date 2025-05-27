@@ -24,7 +24,7 @@ Instead of organizing logic as flat procedures (like in procedural programming),
 
 ---
 
-## 📦 The 4 Pillars of OOP
+## 📦 The 4 Pillars of OOP - Additional info
 
 1. **Encapsulation** – hiding data and exposing controlled interfaces.
 2. **Abstraction** – showing only essential features, hiding internal complexity.
