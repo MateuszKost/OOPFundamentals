@@ -12,14 +12,14 @@ Access modifiers control the visibility and accessibility of class members to en
 
 ## Access Modifiers Explained in This Example
 
-| Modifier             | Accessible From                               | Usage in Example                                |
-|----------------------|-----------------------------------------------|-------------------------------------------------|
-| `public`             | Everywhere                                    | `Name` property                                 |
-| `private`            | Within the same class only                    | `_age` field                                    |
-| `protected`          | Same class and subclasses                     | `SecretNickname` field, `RevealSecret()` method |
-| `internal`           | Anywhere within the same assembly/project     | `InternalCode` property                         |
-| `protected internal` | Subclasses anywhere OR anywhere in assembly   | `ProtectedInternalInfo` property                |
-| `private protected`  | Subclasses within the same assembly only      | `PrivateProtectedNote` property                 |
+| Modifier             | Accessible From                                    | Usage in Example                                |
+|----------------------|----------------------------------------------------|-------------------------------------------------|
+| `private`            | Within the same class only                         | `_age` field                                    |
+| `private protected`  | Subclasses within the same assembly only           | `PrivateProtectedNote` property                 |
+| `protected`          | Same class and subclasses even in other assemblies | `SecretNickname` field, `RevealSecret()` method |
+| `internal`           | Anywhere within the same assembly/project          | `InternalCode` property                         |
+| `protected internal` | Subclasses anywhere OR anywhere in assembly        | `ProtectedInternalInfo` property                |
+| `public`             | Everywhere                                         | `Name` property                                 |
 
 ---
 

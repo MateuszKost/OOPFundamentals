@@ -5,23 +5,23 @@ namespace _03_2_Access_Modifiers_.Models;
 /// </summary>
 public class Person
 {
-    // Public property accessible everywhere
-    public string Name { get; set; }
-
-    // Private field accessible only inside this class
+    // Most restrictive — accessible only within this class
     private int _age;
 
-    // Protected field accessible in this class and derived classes
+    // A bit more open — accessible in this class and derived classes in the same assembly
+    private protected string PrivateProtectedNote { get; set; }
+
+    // Accessible in this class and any derived classes (even in other assemblies)
     protected string SecretNickname;
 
-    // Internal property accessible within the same assembly
+    // Accessible from any class in the same assembly
     internal string InternalCode { get; set; }
 
-    // Protected internal property accessible in derived classes or same assembly
+    // Accessible from derived classes OR from any class in the same assembly
     protected internal string ProtectedInternalInfo { get; set; }
 
-    // Private protected property accessible only in derived classes in the same assembly
-    private protected string PrivateProtectedNote { get; set; }
+    // Most open — accessible from any code anywhere
+    public string Name { get; set; }
 
     public Person(string name, int age)
     {
