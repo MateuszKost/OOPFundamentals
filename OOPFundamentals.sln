@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_01_OOP_Intro_", "_01_OOP_Intro_\_01_OOP_Intro_.csproj", "{A21938E5-2BF7-4251-B8BF-64FFD2B9F265}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_02_Abstract_vs_Interface_vs_Virtual_", "_02_Abstract_vs_Interface_vs_Virtual_\_02_Abstract_vs_Interface_vs_Virtual_.csproj", "{DEF23C58-5849-43DD-AF10-37BD66433175}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{A21938E5-2BF7-4251-B8BF-64FFD2B9F265}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A21938E5-2BF7-4251-B8BF-64FFD2B9F265}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A21938E5-2BF7-4251-B8BF-64FFD2B9F265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DEF23C58-5849-43DD-AF10-37BD66433175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEF23C58-5849-43DD-AF10-37BD66433175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEF23C58-5849-43DD-AF10-37BD66433175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEF23C58-5849-43DD-AF10-37BD66433175}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

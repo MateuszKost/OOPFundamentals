@@ -1,16 +1,30 @@
 namespace _01_OOP_Intro_.OOP;
 
-public class Dog : Animal
+/// <summary>
+/// Represents a Dog with basic properties and behaviors.
+/// </summary>
+public class Dog
 {
-    public Dog(string name, int age) : base(name, age) {}
-
-    public override void MakeSound()
+    // Properties to store dog's name and age
+    public string Name { get; set; }
+    public int Age { get; set; }
+        
+    // Constructor to initialize a Dog object
+    public Dog(string name, int age)
     {
-        Console.WriteLine($"{Name} says: Woof!");
+        Name = name;
+        Age = age;
     }
 
-    public override void Describe()
+    // Method to print a description of the dog
+    public void Describe()
     {
         Console.WriteLine($"Dog - {Name}, {Age} years old");
+    }
+
+    // Method to simulate the dog making a sound
+    public void MakeSound()
+    {
+        Console.WriteLine($"{Name} says: Woof!");
     }
 }
