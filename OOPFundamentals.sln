@@ -12,6 +12,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_04_Encapsulation_", "_04_E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_05_Constructors_And_Overloading_", "_05_Constructors_And_Overloading_\_05_Constructors_And_Overloading_.csproj", "{040FD786-A39C-4F18-8496-04C919352989}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_06_Inheritance_", "_06_Inheritance_\_06_Inheritance_.csproj", "{E0AA311F-03DE-4E41-BE56-AF1F18D7D37B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +44,9 @@ Global
 		{040FD786-A39C-4F18-8496-04C919352989}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{040FD786-A39C-4F18-8496-04C919352989}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{040FD786-A39C-4F18-8496-04C919352989}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0AA311F-03DE-4E41-BE56-AF1F18D7D37B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0AA311F-03DE-4E41-BE56-AF1F18D7D37B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0AA311F-03DE-4E41-BE56-AF1F18D7D37B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0AA311F-03DE-4E41-BE56-AF1F18D7D37B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
